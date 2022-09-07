@@ -1,8 +1,4 @@
-//EXERCISE:
-
 // Exercise 01:
-// Cho đoạn code sau, nhiệm vụ của bạn là thay đổi function declaration/ function expression of ES5
-// thành cú pháp arrow function của ES6 mà ouput của function vẫn phải giữ nguyên là true
 // (function IIFE() {
 //   var foo = (x) => {
 //     var y = x * 2;
@@ -40,7 +36,7 @@
 //   }, 200);
 // })();
 
-// Exercise 02: Sửa lại đoạn code sau sao cho output vẫn là `true`.
+// Exercise 02: 
 // var x = 2,
 //   fns = [];
 // (() => {
@@ -55,7 +51,7 @@
 // console.log(fns[x * 2]());
 // // true
 
-// Exercise 03: Sử dụng rest/spread operator để đoạn code sau vẫn có output là `true`
+// Exercise 03:
 // function foo() {
 //   var arr = [];
 //   var a1 = [2, 4];
@@ -70,7 +66,7 @@
 // console.log(bar().join("") === "281012");
 // // true
 
-// Exercise 04: Cho đoạn code sau, sử dụng tính năng ES6 Destructuring để cấu trúc lại data cho function kiểm tra để đầu ra output vẫn là `true`.
+// Exercise 04: 
 // function ajax(url, cb) {
 //     // fake ajax response:
 //     cb({
@@ -108,8 +104,7 @@
 //                 // DO NOT MODIFY
 //                 ajax('http://fun.tld', response);
 
-// Exercise 05: Cho đoạn code sau, hoàn thành upper function và và sử dụng nó như một tag function
-// để template string sau `Hello  (@ ), welcome to the  !!!` vẫn cho đầu ra là `true`
+// Exercise 05:
 // function upper(strings, ...values) {
 //   var a = strings.toUpperCase();
 //   return a;
